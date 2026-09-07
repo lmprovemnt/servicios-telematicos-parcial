@@ -1,0 +1,26 @@
+acl "red_empresa" {
+    192.168.50.0/24;
+};
+
+options {
+    directory "/var/cache/bind";
+
+    listen-on {
+        127.0.0.1;
+        192.168.50.2;
+    };
+
+    listen-on-v6 { any; };
+
+    recursion no;
+
+    allow-query {
+        red_empresa;
+    };
+
+    allow-transfer {
+        none;
+    };
+
+    dnssec-validation auto;
+};

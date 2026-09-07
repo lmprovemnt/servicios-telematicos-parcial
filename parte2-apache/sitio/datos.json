@@ -1,0 +1,14 @@
+{
+    "empresa": "Empresa Local",
+    "dominio": "empresa.local",
+    "servidor": "192.168.50.10",
+    "servicio": "Servidor Web Apache",
+    "tecnologias": [
+        "Apache",
+        "HTTP",
+        "Gzip",
+        "Brotli",
+        "DNS"
+    ],
+    "descripcion": "Servidor utilizado para el laboratorio de Servicios Telemáticos."
+}

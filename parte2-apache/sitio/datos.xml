@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <nombre>Empresa Local</nombre>
+    <dominio>empresa.local</dominio>
+    <servidor>192.168.50.10</servidor>
+    <servicio>Servidor Web Apache</servicio>
+    <tecnologias>
+        <tecnologia>Apache</tecnologia>
+        <tecnologia>HTTP</tecnologia>
+        <tecnologia>Gzip</tecnologia>
+        <tecnologia>Brotli</tecnologia>
+        <tecnologia>DNS</tecnologia>
+    </tecnologias>
+    <descripcion>
+        Servidor utilizado para el laboratorio de Servicios Telemáticos.
+    </descripcion>
+</empresa>

@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #222;
+    color: white;
+}

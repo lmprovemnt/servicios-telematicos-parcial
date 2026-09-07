@@ -1,0 +1,16 @@
+$TTL 3600
+
+@       IN      SOA     ns1.empresa.local. admin.empresa.local. (
+                        2026090601
+                        3600
+                        900
+                        604800
+                        86400 )
+
+        IN      NS      ns1.empresa.local.
+        IN      NS      ns2.empresa.local.
+
+2       IN      PTR     maestro.empresa.local.
+3       IN      PTR     esclavo.empresa.local.
+10      IN      PTR     parcial.empresa.local.
+20      IN      PTR     cliente.empresa.local.

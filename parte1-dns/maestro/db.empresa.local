@@ -1,0 +1,28 @@
+$TTL 3600
+
+@       IN      SOA     ns1.empresa.local. admin.empresa.local. (
+                        2026090603
+                        3600
+                        900
+                        604800
+                        86400 )
+
+        IN      NS      ns1.empresa.local.
+        IN      NS      ns2.empresa.local.
+        IN      MX      10 mail.empresa.local.
+
+ns1     IN      A       192.168.50.2
+ns2     IN      A       192.168.50.3
+
+ns1     IN      AAAA    ::1
+ns2     IN      AAAA    ::1
+
+www     IN      A       192.168.50.10
+www     IN      AAAA    ::1
+
+mail    IN      A       192.168.50.10
+mail    IN      AAAA    ::1
+
+ftp     IN      CNAME   www
+
+parcial IN      A       192.168.50.10
